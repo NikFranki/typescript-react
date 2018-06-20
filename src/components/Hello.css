@@ -1,0 +1,30 @@
+.hello {
+  text-align: left;
+  margin: 20px;
+  font-size: 14px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.App-header {
+    height: 150px;
+    text-align: center;
+}
+
+.App-header img {
+    animation: app-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+.hello button {
+    font-size: 20px;
+    min-width: 50px;
+}
+
+@keyframes app-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

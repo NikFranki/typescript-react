@@ -1,0 +1,47 @@
+.input-area {
+    height: 100px;
+    line-height: 100px;
+    position: relative;
+}
+
+.input-area input {
+    border: 1px solid #eee;
+    outline: none;
+    width: 40%;
+    height: 30px;
+    text-indent: 15px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.input-area button {
+    margin-left: 10px;
+    border: 1px solid #eee;
+    background: #fff;
+    height: 34px;
+    border-radius: 4px;
+    font-size: 1.2em !important;
+    outline: none;
+}
+
+.list-area ul li {
+    padding: 10px 0;
+    position: relative;
+}
+
+.list-area ul li.active {
+    text-decoration: line-through;
+}
+
+.list-area ul li button {
+    position: absolute;
+    font-size: 1em;
+    right: 0;
+    padding: 0px 10px;
+    border: 1px solid #eee;
+    background: #fff;
+    border-radius: 5px;
+    outline: none;
+}
+
+
